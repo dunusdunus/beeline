@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.padding {
+    padding-top: 2.5em;
+}
+
+.margin {
+    margin-bottom: -0.1em;
+    width: 140px;
+    text-align: right;
+}
+
+.container {
+    width: 1025px;
+    height: 170px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+}
+
+.first__place {
+    position: absolute;
+    left: 2.93%;
+    right: 85.85%;
+    top: 20.47%;
+    bottom: 59.06%;
+    background-color: #FCCD1D;
+    width: 115px;
+    height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.logo {
+    position: absolute;
+    left: 19.02%;
+    right: 65.37%;
+    top: 26.47%;
+    bottom: 44.44%;
+}
+
+.emotions ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    list-style-type: none;
+}
+
+.emotions ul img {
+    padding-right: 15px;
+}
+
+.emotions a {
+    color: #002972;
+    position: absolute;
+    left: 58%;
+    right: 40.95%;
+    top: 38.32%;
+    bottom: 59.06%;
+}
+
+.progress {
+    position: absolute;
+    left: 64.93%;
+    right: 22.44%;
+    top: 12.22%;
+}
+
+.list__1 {
+    position: absolute;
+    left: 61.1%;
+    top: 36.16%;
+}
+
+.list__2 {
+    position: absolute;
+    left: 75.7%;
+    top: 32.16%;
+}
+
+.list__1 li {
+    padding-bottom: 1.5px;
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(44, 48, 54, 0.6);
+}
+
+.list__2 li{
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2C3036;
+}
+
+.button button{
+    position: absolute;
+    left: 83.1%;
+    right: 2.93%;
+    top: 36.47%;
+    bottom: 59.06%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #4B80DF;
+    width: 150px;
+    height: 34px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
